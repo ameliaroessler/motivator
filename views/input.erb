@@ -1,34 +1,41 @@
 <!doctype HTML>
 <html>
   <head> 
-    <title></title>
+    <title>Motivational Quotes and Music</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
   </head>
   
   <body>
-    <h3> Choose the type of day you are going to have </h1>
+    <h2> Choose the type of day you are going to have </h2>
     <p>pick one!</p>
-
-  <select>
-    <option value="lazy">Lazy</option>
-    <option value="busy">busy</option>
-  </select>
-
-       <h3> Choose the type of day you are going to have </h1>
-    <p>pick one!</p>
-
-  <select>
-    <option value="confident">Confident</option>
-    <option value="scared">Scared</option>
-    <option value="ecstatic">Ecstatic</option>
-    <option value="sad">Sad</option>
-    <option value="angry">Angry</option>
-    <option value="happy">Happy</option>
-  </select>
     
    <form action="/results" method="post">
-      <input type="submit">
+     <div class="center">
+      <select name="day" id="day">
+        <option value="lazy">Lazy</option>
+        <option value="busy">busy</option>
+      </select>
+     </div>
+
+      <h2> Choose the type of mood you are in </h2>
+      <p>pick one!</p>
+      <div class="center">
+         <select name="mood" id="mood">
+            <option value="confident">Confident</option>
+            <option value="scared">Scared</option>
+            <option value="ecstatic">Ecstatic</option>
+            <option value="sad">Sad</option>
+            <option value="angry">Angry</option>
+            <option value="happy">Happy</option>
+         </select>
+       </div>
+       <br>
+       <div class="center">
+           <input type="submit" id="submit">
+       </div>
     </form>
-    
+    <img src="../images/the-flatiron-school-logo-sm-black.png"
    </body>
 </html>

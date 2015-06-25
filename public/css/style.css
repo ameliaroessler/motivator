@@ -1,3 +1,51 @@
 h1 {
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Megrim', cursive;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 350%;
+}
+h2 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 200;
+  color: white;
+  text-align: center;
+  font-size: 200%;
+}
+body {
+    background-color: #A9A9A9;
+}
+a {
+  font-family: 'Megrim', cursive;
+  font-weight: 400;
+  color: white;
+  font-size: 200%;
+}
+p {
+  font-family: 'Megrim', cursive;
+  font-weight: 200;
+  color: white;
+  text-align: center;
+  font-size: 175%;
+}
+#mood {
+  width:150px; 
+  font-size: 100px;
+}
+#day {
+  width:150px;
+  font-size: 100px;
+}
+.center {
+  text-align:center;
+}
+#submit {
+  width:150px; 
+  font-size: 100px;
+}
+img {
+  position: absolute; 
+  left: 50px; 
+  top: 550px; 
 }
